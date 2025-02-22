@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REBELDIA MDERADA</title>
-</head>
-
-<style>
-    body{
-       background-color:rgb(63, 120, 166);
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 100vh;
-       flex-direction: column;
-       margin: 0;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REBELDIA MDERADA</title>
+  <style>
+    body {
+      background-color: rgb(63, 120, 166);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      margin: 0;
     }
-    img{
-        width: 650px;
+    img {
+      width: 650px;
+      height: auto;
+    }
+    button {
+      margin-top: 10px;
+      font-size: 20px;
+      color: rgb(245, 245, 245);
+      background-color: rgb(60, 58, 93);
+      border: 4px solid rgb(72, 78, 131);
+    }
+    /* Responsividade para telas de celular */
+    @media (max-width: 768px) {
+      img {
+        width: 100%;
+        max-width: 650px;
         height: auto;
+      }
+      button {
+        font-size: 16px;
+        padding: 8px 16px;
+      }
     }
-    button{
-        margin-top: 10px;
-        font-size: 20px;
-        color: rgb(245, 245, 245);
-        background-color: rgb(60, 58, 93);
-        border: 4px solid rgb(72, 78, 131);
-        
-    }
-</style>
-
+  </style>
+</head>
 <body>
-    <img src="capa-frente.jpg" alt="">
-    <a href="home.html">
+  <img src="capa-frente.jpg" alt="">
+  <a href="home.html">
     <button>ENTRE</button>
-</a>
+  </a>
 </body>
-
 </html>
