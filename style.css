@@ -4,9 +4,19 @@ body {
     padding: 0;
 }
 
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
 /* Destacar nome da loja */
 .destaque {
    color: rgb(68, 168, 108);
+}
+
+html, body {
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 /* Títulos */
@@ -71,7 +81,6 @@ h3 {
     font-size: 1.2em;
     color: rgb(220, 211, 211);
     text-align: center;
-    margin-left: 40px;
 }
 
 /* Rodapé */
@@ -81,7 +90,6 @@ footer {
     align-items: center;
     gap: 20px;
     margin: 30px 0;
-    margin-left: 30px;
 }
 
 footer a {
@@ -103,19 +111,19 @@ footer img {
 @media (max-width: 768px) {
     h1 {
         font-size: 2em;
-        margin-left: 20px;
+       
     }
     h2 {
         font-size: 1.5em;
-        margin-left: 30px;
+       
     }
     h3 {
         font-size: 1.2em;
-        margin-left: 40px;
+       
     }
     .p1 {
         font-size: 1em;
-        margin-left: 40px;
+       
     }
     .marcas {
         font-size: 1em;
