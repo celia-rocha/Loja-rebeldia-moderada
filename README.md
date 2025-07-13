@@ -1,4 +1,4 @@
-# Site de Apresentação da Loja do Meu Primo 🛍️👕🩳
+# Site de apresentação da loja do meu primo 🛍️👕🩳
 
 Este site foi criado por mim como um projeto de aprendizado. Ele apresenta a loja com imagens e textos demonstrando as marcas das peças, contando onde foi fundada e falando um pouco sobre ela.
 
