@@ -6,4 +6,5 @@ O site foi feito apenas com HTML, CSS e totalmente responsivo, sem uso de framew
 
 Este site foi criado por mim como um projeto de aprendizado, é simples, mas aprendi muito fazendo.
 
+https://celia-rocha.github.io/Loja-rebeldia-moderada/
 
